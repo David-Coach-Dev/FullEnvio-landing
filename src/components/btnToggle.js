@@ -1,3 +1,6 @@
+import toggleSVG from '../assets/icons/toggle.svg';
+import closeSVG from '../assets/icons/close.svg';
+
 const d = document;
 
 export default function btnToggle() {
@@ -10,10 +13,10 @@ export default function btnToggle() {
 
     if (menu.classList.contains('menu--show')) {
       toggle.setAttribute('aria-label', 'cerrar');
-      toggleMenu.setAttribute('src', 'src/assets/icons/close.svg');
+      toggleMenu.setAttribute('src', closeSVG);
     } else {
       toggle.setAttribute('aria-label', 'abrir');
-      toggleMenu.setAttribute('src', 'src/assets/icons/toggle.svg');
+      toggleMenu.setAttribute('src', toggleSVG);
     }
   });
 }
