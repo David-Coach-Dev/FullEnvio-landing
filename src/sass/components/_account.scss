@@ -1,0 +1,45 @@
+.account {
+  display: none;
+
+  &--mobile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &-toggle {
+    color: var(--color-base);
+    text-align: center;
+  }
+
+  &-icon {
+    text-decoration: none;
+    color: var(--color-base);
+  }
+
+  &-icon img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .account {
+    display: block;
+
+    &--mobile {
+      display: none;
+    }
+
+    &-icon {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    &-icon img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}

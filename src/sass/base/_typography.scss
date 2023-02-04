@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@use '../helpers/fonts' as *;
+
+@each $weight, $url in $font-url {
+  @font-face {
+    font-weight: map-get($font-weight, $weight);
+    font-family: $font-family;
+    src: local($font-family), url($url);
+  }
+}

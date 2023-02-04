@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// 1. Vendors
+@use 'vendors/normalize';
+
+// 2. Base stuff
+@use 'base/config';
+@use 'base/typography';
+@use 'base/globals';
+
+// 3. Layout-related sections
+@use 'layouts/grid-container';
+@use 'layouts/wrapper';
+@use 'layouts/header';
+@use 'layouts/main';
+@use 'layouts/footer';
+
+// 4. Components
+@use 'components/menu';
+@use 'components/account';
+@use 'components/hero';
+@use 'components/container';
+
+// 5. Page-specific styles
+
+// 6. Themes

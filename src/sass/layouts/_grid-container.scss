@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.grid-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 5rem 1fr 7rem 3rem;
+  grid-template-areas:
+    'header header header'
+    'main   main   main'
+    'space  space  space'
+    'footer footer footer';
+
+  background-color: white;
+}

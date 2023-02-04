@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@use '../helpers/fonts' as *;
+
+/* Basic configuration of the project */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: calc(14px + (28 - 14) * ((100vw - 320px) / (3840 - 320)));
+  /* Fluid Design 👆🏽: https://bit.ly/fluid-design */
+}
+
+.reset *,
+.reset *::before,
+.reset *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  font-family: $font-family, sans-serif;
+}

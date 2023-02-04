@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --gold-primary: #ffb400;
+  --gold-secondary: #f3b020;
+  --blue-primary: #003f7c;
+  --color-base: white;
+  --color-gray: #4a4a4a;
+  --color-base-gray: #f6fdff;
+
+  /* Typography */
+  --font-regular: 400;
+  --font-semiBold: 500;
+  --font-bold: 700;
+  --font-extraBold: 900;
+}
+
+.flex-parents {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}

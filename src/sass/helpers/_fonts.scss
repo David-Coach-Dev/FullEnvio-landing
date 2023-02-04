@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+$font-family: 'Roboto';
+
+$font-weight: (
+  'regular': 400,
+  'semiBold': 500,
+  'bold': 700,
+  'extraBold': 900,
+);
+
+$font-url: (
+  'regular': '../assets/fonts/Roboto-Regular.woff2',
+  'semiBold': '../assets/fonts/Roboto-Medium.woff2',
+  'bold': '../assets/fonts/Roboto-Bold.woff2',
+  'extraBold': '../assets/fonts/Roboto-Black.woff2',
+);
